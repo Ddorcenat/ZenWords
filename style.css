@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to top, #0f2027, #203a43, #208ab8);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+  }
+  
+
+  .container {
+    background-color: rgba(255, 255, 255, 0.9); 
+    margin-top: 40px;
+    padding: 30px;
+    margin-bottom: 40px;
+    width: 90%;
+    height: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+
+  .quote-box {
+    margin-bottom: 20px;
+  }
+  
+  #quote {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin: 0;
+  }
+  
+  #author {
+    margin-top: 8px;
+    font-style: italic;
+    color: #555;
+  }
+  
+
+  button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #008cff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #006edc;
+  }
+  
+
+  textarea {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    resize: none;
+  }
+  
+
+  #journal-entries {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .journal-entry {
+    background-color: #f9f9f9;
+    border-left: 4px solid #008cff;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+  
+  .journal-entry p {
+    margin: 6px 0;
+  }
+  
+  .journal-entry small {
+    color: #777;
+    font-size: 12px;
+  }
+  
